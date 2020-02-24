@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', regular;
+	font-size: 24px;
+	line-height: 1.5;
+	color: black;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+
+h1 {
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 56px;
+	margin: 0;
+    
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+	line-height: 42px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 24px;
+	line-height: 28px;
+
+}
+
+.bottom {
+	bottom: 0;
+	position:absolute; 
+	margin:0px;
+}
+
+button {
+	margin-top: 40px;
+	width: 400px;
+	height: 70px;
+	font-size: 24px;
+	line-height: 28px;
+	border: 0px;
+	background: #0094FF; 
+    color: white;
+}
+
+button:hover {
+    background: black; 
+   } 
+
+#about_me {
+	width: 100%;
+	max-width: 1200px;
+	height: 517px;
+    margin: 0 auto;
+	margin-top: 5%;
+	position:relative;
+}
+
+#about_me_photo {
+	float: left;
+	width: 400px;
+}
+
+#about_me_text {
+	margin-left: 450px;
+    height: 400px;
+    position:relative;
+}
+#social_links {
+	bottom: 0;
+	position:absolute; 
+    margin-left: 450px;
+
+}
+
+.vk {
+	display:inline-block;
+	vertical-align:bottom;
+	width:70px;
+	height:70px;
+	padding:0;
+	outline:none;
+	background-image:url(images/vk.png);
+	background-size: cover;
+}
+
+.inst {
+	display:inline-block;
+	vertical-align:bottom;
+	width:70px;
+	height:70px;
+	margin-left: 40px;
+	padding:0;
+	outline:none;
+	background-image:url(images/inst.png);
+	background-size: cover;
+}
+
+.git {
+	display:inline-block;
+	vertical-align:bottom;
+	width:70px;
+	height:70px;
+	margin-left: 40px;
+	padding:0;
+	outline:none;
+	background-image:url(images/git.png);
+	background-size: cover;
+}
+
+.email {
+	display:inline-block;
+	vertical-align:bottom;
+	width:70px;
+	height:70px;
+	margin-left: 40px;
+	padding:0;
+	outline:none;
+	background-image:url(images/email.png);
+	background-size: cover;
+}
+
+#my_skills {
+	width: 100%;
+	max-width: 1200px;
+    margin: 0 auto;
+	margin-top: 5%;
+}
+
+.stroke {
+	width: 100%;
+	max-width: 1200px;
+    margin-top: 5%;
+}
+
+div.skill {
+	display:inline-block;
+	width:300px;
+	vertical-align: top;
+	margin-left: 50px;
+}
+
+img.first_skill{
+	height:150px;
+	width:150px; 
+}
+
+.first_skill {
+	display:inline-block;
+	width:250px;
+	vertical-align: top;
+}
+
+div.first_skill {
+	display:inline-block;
+	width:300px;
+	vertical-align: top;
+}
+
+p.skill {
+	margin-top: 15px;
+}
+
+img.skill{
+	height:150px;
+	width:150px; 
+}
+
+#my_projects {
+	width: 100%;
+	max-width: 1200px;
+    margin: 0 auto;
+	margin-top: 50px;
+}
+
+
+div.project {
+	display:inline-block;
+	width: 300px;
+	margin-right:200px;
+}
+
+img.project {
+	width:300px;
+}
+
+img.project:hover {
+	background: rgba(205, 214, 219, 0.3);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0094FF;
+	text-decoration: none;
+}
